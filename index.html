@@ -6,98 +6,99 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     </script>
-    <title>TRIVIA GAME</title>
+    <title>DOCTOR WHO TRIVIA GAME</title>
   </head>
   <body>
-    <h1>THE TRIVIA GAME</h1>
+    <h1>DOCTOR WHO TRIVIA GAME</h1>
 
  <div container id="questionsbox">
 
-    <div id="timer">Time Remaining:<p id="timeremaining">30</p> </div>
+    <div id="timerInfo">Wibbly Wobbly Timey Wimey Left:<p id="timeremaining">30</p> </div>
 
         <div id="correct">Total answers correct:<p id="correntamount"></p> </div>
 
         <div id="wrong">Total answers wrong:<p id="wrongamount"></p> </div>
 
+<hr>
 <!--FIRST Q -->
-    <div id="q1">Question 1?</div>
+    <div id="q1">What is the name of Doctor Who's home planet?</div>
 
     <div class="container">
       <form>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 1
+        <label id="incorrectAnswer1" class="radio-inline">
+          <input type="radio" name="optradio">Sigma
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 2
+        <label id="incorrectAnswer1" class="radio-inline">
+          <input type="radio" name="optradio">Klom
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 3
+        <label id="correctAnswer1" class="radio-inline">
+          <input type="radio" name="optradio">Gallifrey
         </label>
       </form>
     </div>
 
 <!--SECOND Q -->
-    <div id="q2">Question 2?</div>
+    <div id="q2">On the show Doctor Who, what is Rose's last name?</div>
 
     <div class="container">
       <form>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 1
+        <label id="correctAnswer2" class="radio-inline">
+          <input type="radio" name="optradio">Tyler
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 2
+        <label id="incorrectAnswer2" class="radio-inline">
+          <input type="radio" name="optradio">Jones
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 3
+        <label id="incorrectAnswer2" class="radio-inline">
+          <input type="radio" name="optradio">Smith
         </label>
       </form>
     </div>
 <!--THIRD Q -->
-    <div id="q3">Question 3?</div>
+    <div id="q3">When did the series Doctor Who debut?</div>
 
     <div class="container">
       <form>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 1
+        <label id="incorrectAnswer3" class="radio-inline">
+          <input type="radio" name="optradio">1986
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 2
+        <label id="correctAnswer3" class="radio-inline">
+          <input type="radio" name="optradio">1963
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 3
+        <label  id="incorrectAnswer3" class="radio-inline">
+          <input type="radio" name="optradio">2005
         </label>
       </form>
     </div>
 
 <!--FOURTH Q -->
-    <div id="q4">Question 4?</div>
+    <div id="q4">What color is the Tardis?</div>
 
     <div class="container">
       <form>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 1
+        <label id="incorrectAnswer4" class="radio-inline">
+          <input type="radio" name="optradio">Green
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 2
+        <label id="correctAnswer4" class="radio-inline">
+          <input type="radio" name="optradio">Blue
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 3
+        <label  id="incorrectAnswer4" class="radio-inline">
+          <input type="radio" name="optradio">Orange
         </label>
       </form>
     </div>
 
 <!--FIFTH Q -->
-    <div id="q5">Question 5?</div>
+    <div id="q5">The Doctor seems to arrive on a particular earth holiday. Which holiday?</div>
     <div class="container">
       <form>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 1
+        <label id="incorrectAnswer5" class="radio-inline">
+          <input type="radio" name="optradio">Halloween
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 2
+        <label id="incorrectAnswer5" class="radio-inline">
+          <input type="radio" name="optradio">Easter
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="optradio">Option 3
+        <label id="correctAnswer5" class="radio-inline">
+          <input type="radio" name="optradio">Christmas
         </label>
       </form>
     </div>
