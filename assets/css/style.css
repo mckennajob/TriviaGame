@@ -1,0 +1,41 @@
+body {
+  background-image: url("../images/drwhovangogh.jpg");
+  font-family: monospace;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#timer {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#correct, #wrong {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#questionsbox {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#q1, #q2, #q3, #q4, #q5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#finishButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
